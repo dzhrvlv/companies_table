@@ -1,0 +1,33 @@
+.add-company {
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    background: #fff;
+
+    &:hover {
+        background: #ddd;
+    }
+
+    &:active {
+        background: #ccc;
+    }
+}
+
+.add-company__icon,
+.add-company__title {
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.add-company__title {
+    font-size: 12px;
+    text-transform: uppercase;
+}

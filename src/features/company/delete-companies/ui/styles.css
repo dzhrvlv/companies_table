@@ -1,0 +1,29 @@
+.delete-companies {
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    background: rgba(255, 0, 0, 0.5);
+
+    &:hover {
+        background: rgba(255, 0, 0, 0.7);
+    }
+
+    &:active {
+        background: rgba(255, 0, 0, 0.9);
+    }
+}
+
+.delete-companies__title {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}

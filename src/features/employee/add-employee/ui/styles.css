@@ -1,0 +1,33 @@
+.add-employee {
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    background: #fff;
+
+    &:hover {
+        background: #ddd;
+    }
+
+    &:active {
+        background: #ccc;
+    }
+}
+
+.add-employee__icon,
+.add-employee__title {
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.add-employee__title {
+    font-size: 12px;
+    text-transform: uppercase;
+}

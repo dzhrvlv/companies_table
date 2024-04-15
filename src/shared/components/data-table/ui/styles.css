@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+
+    height: 40px;
+    overflow: hidden;
+
+    background: #ccc;
+
+    font-size: 15px;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.data-table-row-selected {
+    background: rgba(255, 169, 98, 0.3);
+}
+
+.data-table-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+}
+
+.data-table-field input {
+    padding: 2px;
+    background: none;
+    border: 1px solid black;
+    outline: none;
+
+    &:focus {
+        outline: 1px solid black;
+    }
+}
